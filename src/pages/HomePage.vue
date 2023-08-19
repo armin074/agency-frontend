@@ -123,15 +123,15 @@
         </p>
       </div>
       <div class="jobs-variety">
-        <div class="medicine">
+        <div class="variety medicine">
           <p class="jobs-name">/1 Medizin</p>
           <p class="jobs-info">Leben heilen und etwas bewirken</p>
         </div>
-        <div class="gastronomy">
+        <div class="variety gastronomy">
           <p class="jobs-name">/2 Gastronomie</p>
           <p class="jobs-info">Kulinarische Meisterwerke schaffen</p>
         </div>
-        <div class="it">
+        <div class="variety it">
           <p class="jobs-name">/3 Informationstechnologie (IT)</p>
           <p class="jobs-info">Die digitale Zukunft gestalten</p>
         </div>
@@ -196,6 +196,71 @@ export default {
     max-width: 600px!important;
     padding:25px!important;
   }
+  .eight__container{
+    padding:0 !important;
+  }
+  .reviews-header{
+    font-size: 32px!important;
+    padding: 0!important;
+    margin-top: 25px;
+  }
+  .jobs-variety{
+    flex-direction: column!important;
+    padding-top: 25px!important;
+  }
+  .jobs-name{
+    font-size: 24px !important;
+
+  }
+  .jobs-info {
+    font-size: 11px !important;
+  }
+  .variety {
+    padding-top: 15px;
+    padding-bottom: 15px;
+
+  }
+  .seventh__container{
+    height: 100%!important;
+  }
+  .headline-career .h-career {
+    font-size: 32px!important;
+  }
+  .p-career{
+    padding: 0!important;
+    text-align: left!important;
+  }
+  .sixth__container{
+    padding: 0!important;
+  
+  }
+  .headline{
+    width: 100%!important;
+    padding: 0!important;
+    margin-top: 25px;
+  }
+  .headline p{
+    font-size: 28px!important;
+  }
+  .list-items{
+    width: 100%!important;
+  }
+  .p-container{
+    flex-direction: column-reverse!important;
+  
+  }
+  .p-text{
+    padding-left: 15px;
+    padding-right: 15px !important;
+    width: 100%!important;
+    font-size: 11px!important;
+  }
+  .fourth__container{
+    padding: 10px!important;
+    height: 100%!important;
+    padding-top: 15px!important;
+    padding-bottom: 25px!important;
+  }
   .third__container{
     flex-direction: column;
     padding-top: 0!important;
@@ -223,10 +288,15 @@ export default {
   }
   .first-line-text {
     font-size: 90px !important;
+    line-height: 1.1em;
   }
-  
+  .fourth__container .first-line-text{
+    font-size: 80px!important;
+  }
   .second-line-text {
     font-size: 63px !important;
+    text-align: center;
+    align-self: auto!important;
   }
   .second-line-text p {
     width: 100vw !important;
@@ -234,6 +304,8 @@ export default {
   }
   .third-line-text {
     font-size: 80px !important;
+    margin-top: -25px;
+    align-self: center !important;
   }
   .second__container {
     height: 100% !important;
@@ -263,13 +335,17 @@ export default {
   .intro-text h2 {
     font-size: 32px;
   }
+  .eight__container {
+    margin-bottom: 10px !important;
+  }
 }
 .reviews-header {
   width: 100%;
   height: 300px;
   display: flex;
   align-items: center;
-  justify-content: flex-start;
+  justify-content: center;
+  text-align: center;
   font-family: 'NyghtLightItalic';
   text-transform: lowercase;
   color: #1c1c1c;
@@ -287,6 +363,7 @@ export default {
   width: 100%;
   padding-left: 45px;
   padding-right: 45px;
+  margin-bottom: 100px;
 }
 .jobs-variety {
   display: flex;
@@ -312,7 +389,7 @@ export default {
   justify-content: center;
   align-items: center;
   width: 100%;
-  height: 80vh;
+  height: 100%;
   background-color: #e9531d;
   padding: 50px 45px;
   border-radius: 12px;
@@ -346,8 +423,10 @@ export default {
 }
 .text-info {
   font-size: 12px;
-  font-family: 'Neue Montreal';
+  font-family: 'NeueMontreal';
   text-transform: uppercase;
+  color: #1c1c1c;
+  
 }
 .list-items {
   width: 50vw;
@@ -355,6 +434,8 @@ export default {
 .headline {
   width: 50vw;
   padding-right: 90px;
+  margin-bottom: 25px!important;
+  margin-top: 50px;
 }
 .headline p {
   font-family: 'NyghtLightItalic';
@@ -554,7 +635,6 @@ h2 {
   color: #575656;
   font-family: 'NeueMontreal';
   font-size: 13px;
-
   margin-top: 25px;
   line-height: 1.5em;
 }

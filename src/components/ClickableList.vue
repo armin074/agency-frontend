@@ -48,6 +48,16 @@
   </script>
   
   <style scoped>
+  @media only screen and (max-width:600px){
+    .accordion-header{
+      font-size: 26px!important;
+
+    }
+    .accordion-content {
+      font-size: 11px!important;
+      color: #1c1c1c;
+    }
+  }
   .accordion-item {
     height: 100%;
     border-top: .1px solid #c4c4c4;
@@ -65,7 +75,7 @@
     justify-content: space-between;
     align-items: center;
     cursor: pointer;
-    font-family: 'Dahlia Regular';
+    font-family: 'Dahlia';
     font-size: 36px;
     text-transform: lowercase;
     color: #e9531d;

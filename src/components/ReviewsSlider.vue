@@ -44,7 +44,7 @@
     
       ],
         currentSlide: 0,
-        slideWidth: 300, // Adjust this value based on your slide width
+        slideWidth: 360, // Adjust this value based on your slide width
         isDragging: false,
         startX: 0,
         currentTranslate: 0
@@ -119,6 +119,18 @@
   };
   </script>
 <style scoped>
+@media only screen and (max-width:600px){
+  .slide {
+  background-color: #ffefe1;
+  padding: 25px 25px 5px 25px;
+  width: 100%!important; 
+  margin-right: 35px!important;
+  flex-shrink: 0;
+  border-radius: 12px;
+  cursor: pointer;
+  user-select: none;
+}
+}
 .review-slider {
   
   overflow: hidden;
@@ -152,7 +164,7 @@ img:hover{
     transform: scale(1.05);
 }
 .name {
- font-family: 'Dahlia Regular';
+ font-family: 'Dahlia';
  font-size: 26px;
  padding-bottom: 5px;
  color: #e9531d;

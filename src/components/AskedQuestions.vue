@@ -49,10 +49,35 @@
   </script>
   
   <style scoped>
+  @media only screen and (max-width: 600px){
+    .header{
+      font-size: 70px !important;
+      padding: 30px !important;
+    }
+    .accordion{
+      padding-left: 25px!important;
+      padding-right: 25px !important;
+    }
+    .accordion-content{
+      padding: 0!important;
+      font-size: 11px!important;
+      padding-top: 15px!important;
+      padding-bottom: 10px!important;
+    }
+    img{
+      width: 14px!important;
+      height: 14px!important;
+     
+    }
+    .accordion-header{
+      line-height: 1.1em;
+      margin-right: 10px;
+    }
+  }
   .header{
     font-size: 96px;
     padding-left: 45px;
-    font-family: 'Dahlia Regular';
+    font-family: 'Dahlia';
     background-color: #ffefe1;
     color: #2c3e50;
     border-radius: 12px 12px 0 0;
@@ -91,7 +116,7 @@
     justify-content: space-between;
     align-items: center;
     cursor: pointer;
-    font-family: 'Dahlia Regular';
+    font-family: 'Dahlia';
     font-size: 22px;
     text-transform:none;
     color: #e9531d;
