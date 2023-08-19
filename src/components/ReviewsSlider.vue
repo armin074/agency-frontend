@@ -159,7 +159,7 @@ img:hover{
 }
 
 .review {
-  font-family: 'Neue Montreal';
+  font-family: 'NeueMontreal';
   font-size: 12px;
   text-transform: uppercase;
   color: #e9531d;

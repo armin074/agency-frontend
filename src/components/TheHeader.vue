@@ -38,7 +38,7 @@ img{
 .mobile-menu{
     position: absolute;
     margin-right: 50px;
-    font-family: 'Neue Montreal';
+    font-family: 'NeueMontreal';
     text-transform: uppercase;
     font-size: 12px;
 }
@@ -58,7 +58,7 @@ ul {
 a {
     text-decoration: none;
     color: #575656;
-    font-family: 'Neue Montreal';
+    font-family: 'NeueMontreal';
     text-transform: uppercase;
     font-size: 12px;
    

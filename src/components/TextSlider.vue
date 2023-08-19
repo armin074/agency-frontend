@@ -92,7 +92,7 @@ h3 {
 }
 p {
   text-align: left;
-  font-family: 'Neue Montreal';
+  font-family: 'NeueMontreal';
   text-transform: uppercase;
   font-size: 12px;
   width: 70%;
@@ -132,7 +132,7 @@ button {
 @media only screen and (max-width: 800px){
   p {
   text-align: left;
-  font-family: 'Neue Montreal';
+  font-family: 'NeueMontreal';
   text-transform: uppercase;
   font-size: 12px;
   width: 100%;

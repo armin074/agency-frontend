@@ -80,7 +80,7 @@
     
   }
   .accordion-content{
-    font-family: 'Neue Montreal';
+    font-family: 'NeueMontreal';
     font-size: 12px;
     text-transform: uppercase;
     padding-right: 100px;

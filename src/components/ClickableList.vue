@@ -56,7 +56,7 @@
     user-select: none;
   }
   .accordion-content{
-    font-family: 'Neue Montreal';
+    font-family: 'NeueMontreal';
     font-size: 12px;
     text-transform: uppercase;
   }
@@ -65,7 +65,7 @@
     justify-content: space-between;
     align-items: center;
     cursor: pointer;
-    font-family: 'Dahlia';
+    font-family: 'Dahlia Regular';
     font-size: 36px;
     text-transform: lowercase;
     color: #e9531d;

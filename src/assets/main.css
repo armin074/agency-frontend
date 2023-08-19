@@ -6,11 +6,11 @@
 }
 @font-face {
   font-family: 'Dahlia';
-  src: url(/frontend-pages/src/assets/fonts/Dahlia/Dahlia\ Regular.otf) format("opentype");
+  src: url(./fonts/Dahlia/DahliaRegular.otf) format("opentype");
 }
 @font-face {
-  font-family: 'Neue Montreal';
-  src: url(./fonts/Neue\ Montreal/NeueMontreal-Regular.otf);
+  font-family: 'NeueMontreal';
+  src: url(./fonts/NeueMontreal/NeueMontreal-Regular.otf);
 }
 @font-face {
   font-family: 'NyghtDark';

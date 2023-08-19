@@ -303,7 +303,7 @@ export default {
 .jobs-info {
   font-size: 12px;
   text-transform: uppercase;
-  font-family: 'Neue Montreal';
+  font-family: 'NeueMontreal';
   color: #ffefe1;
 }
 .seventh__container {
@@ -328,7 +328,7 @@ export default {
   padding-bottom: 25px;
 }
 .p-career {
-  font-family: 'Neue Montreal';
+  font-family: 'NeueMontreal';
   text-transform: uppercase;
   font-size: 12px;
   color: #ffefe1;
@@ -381,7 +381,7 @@ export default {
   padding-bottom: 15px;
 }
 .help-text {
-  font-family: 'Neue Montreal';
+  font-family: 'NeueMontreal';
   text-transform: uppercase;
   font-size: 12px;
   color: #575656;
@@ -425,7 +425,7 @@ export default {
 }
 .p-text {
   width: 50%;
-  font-family: 'Neue Montreal';
+  font-family: 'NeueMontreal';
   font-size: 12px;
   text-transform: uppercase;
   color: #575656;
@@ -467,7 +467,7 @@ html {
   padding-bottom: 15px;
 }
 .benefit p {
-  font-family: 'Neue Montreal';
+  font-family: 'NeueMontreal';
   font-size: 12px;
   text-transform: uppercase;
   color: #575656;
@@ -552,7 +552,7 @@ h2 {
 }
 .intro-text p {
   color: #575656;
-  font-family: 'Neue Montreal';
+  font-family: 'NeueMontreal';
   font-size: 13px;
 
   margin-top: 25px;

@@ -21,7 +21,7 @@
 
     padding: 20px 0;
     text-align: center;
-    font-family: 'Neue Montreal';
+    font-family: 'NeueMontreal';
     font-size: 12px;
     text-transform: uppercase;
   }
