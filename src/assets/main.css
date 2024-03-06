@@ -1,0 +1,55 @@
+@import './base.css';
+
+@font-face {
+  font-family: 'BodegaSans';
+  src: url(./fonts/Bodega/BodegaSans.ttf) format("opentype");
+}
+@font-face {
+  font-family: 'BodegaLight';
+  src: url(./fonts/Bodega/BodegaLight.ttf) format("opentype");
+}
+@font-face {
+  font-family: 'NeueMontreal';
+  src: url(./fonts/NeueMontreal/NeueMontreal-Regular.otf);
+}
+@font-face {
+  font-family: 'NyghtDark';
+  src: url(./fonts/Nyght/NyghtSerif-Dark.woff);
+}
+@font-face {
+  font-family: 'NyghtLightItalic';
+  src: url(./fonts/Nyght/NyghtSerif-LightItalic.woff);
+}
+
+@font-face {
+  font-family: 'NyghtDarkItalic';
+  src: url(./fonts/Nyght/NyghtSerif-DarkItalic.woff);
+}
+body,html{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  overflow-x: hidden;
+  background-color: white;
+}
+::-webkit-scrollbar {
+  width: 10px;
+  background-color: #ffefe1;
+}
+ 
+::-webkit-scrollbar-thumb {
+   border-radius: 2px;
+  /* background-color: rgba(0,0,0,.5); */
+  background-color: #e9531d;
+  color: #e9531d;
+  -webkit-box-shadow: 0 0 1px rgba(255,255,255,.5);
+}
+::-webkit-scrollbar-thumb:hover {
+  background-color: #1c1c1c;
+  
+} 
+::selection {
+  color: #e9531d;
+  background: #1c1c1c;
+}
+/* main.css */
