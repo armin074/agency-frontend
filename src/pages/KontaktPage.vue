@@ -46,13 +46,8 @@ export default {
     align-items: center;
     height: 100%;
 }
-/* .right-uber img{
-    margin-top: 75px;
-    margin-left: 50px;
-    width: 300px;
-    height: 300px;
-} */
-@media only screen and (max-width: 600px) {
+
+@media only screen and (max-width: 1100px) {
 
 .uberuns {
     flex-direction: column;

@@ -35,10 +35,11 @@
   <style scoped>
   /* Style the map container */
   .leaflet-map {
-    height: 100%;
+    height: 100vh;
     border: 1px solid #e9531d;
-    
+     
     width: 100%;
   }
+  
   </style>
   

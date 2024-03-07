@@ -70,17 +70,3 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-.custom-scrollbar {
-  overflow-y: auto;
-  scrollbar-width: thin;
-  scrollbar-color: rgba(145, 28, 28, 0.5) transparent;
-  max-height: 400px;
-}
-
-.custom-scrollbar::-webkit-scrollbar {
-  width: 8px;
-}
-
-.custom-scrollbar::-webkit-scrollbar-thumb {
-  background-color: rgba(170, 1, 1, 0.5);
-}

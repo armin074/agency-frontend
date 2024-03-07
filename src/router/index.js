@@ -11,6 +11,7 @@ import UnternehmenPageBKS from "../pages/UnternehmenPageBKS.vue";
 import KontaktPageBKS from "../pages/KontaktPageBKS.vue";
 import HomePageAL from "../pages/HomePageAL.vue";
 import NotFound from "../pages/NotFound.vue";
+import KontaktPageAL from "../pages/KontaktPageAL.vue"
 const router = createRouter({
     scrollBehavior(to, from, savedPosition) {
         if (savedPosition) {
@@ -79,6 +80,11 @@ const router = createRouter({
             path: "/al",
             name: "workAL",
             component: HomePageAL
+        },
+        {
+            path: "/nakontaktoni",
+            name: "nakontaktoni",
+            component: KontaktPageAL                   
         },
         {
             path: "/:pathMatch(.*)*",

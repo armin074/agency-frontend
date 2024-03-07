@@ -5,7 +5,7 @@
             <TheFormEN />
         </div>
         <div class="right-uber">
-            <img src="..//assets/images/mailbox.svg" />
+            <TheMap />
         </div>
     </div>
 <TheFooterEN />
@@ -14,12 +14,13 @@
     import TheFormEN from '../components/TheFormEN.vue';
     import TheHeaderEN from '../components/TheHeaderEN.vue';
     import TheFooterEN from '../components/TheFooterEN.vue'; 
-
+    import TheMap from '../components/TheMap.vue';
     export default {
         components: {
             TheFormEN,
             TheHeaderEN,
-            TheFooterEN
+            TheFooterEN,
+            TheMap
         }
     }
     </script>
@@ -48,7 +49,7 @@
         width: 300px;
         height: 300px;
     }
-    @media only screen and (max-width: 600px) {
+    @media only screen and (max-width: 1100px) {
     
     .uberuns {
         flex-direction: column;

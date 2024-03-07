@@ -7,16 +7,16 @@
         </div>
         <div class="column">
           <h4>Kontakt</h4>
-          <p>Maria Trapp Platz 1/106 1220 Vienna Austria</p>
+          <p>Rruga: Maria Trapp Platz 1/106 1220 Vienna Austria</p>
           <p>Email: office@cultstaff.at</p>
-          <p>Telefon: +43 667 7605600</p>
+          <p>Telefoni: +43 667 7605600</p>
         </div>
         <div class="column">
-          <h4>Linkovi</h4>
+          <h4>Quick Links</h4>
           <ul>
-            <li><RouterLink to="/">Posao</RouterLink></li>
-            <li><RouterLink to="/unternehmen">Poslodavci</RouterLink></li>
-            <li><RouterLink to="/kontakt">Prijava</RouterLink></li>
+            <li><RouterLink to="/">PUNONJËS</RouterLink></li>
+            
+            <li><RouterLink to="/kontakt">Kontakt</RouterLink></li>
             <!-- Add more links as needed -->
           </ul>
         </div>

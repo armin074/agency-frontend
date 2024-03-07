@@ -5,57 +5,49 @@
             <TheFormBKS />
         </div>
         <div class="right-uber">
-            <img src="..//assets/images/mailbox.svg" />
+            <TheMap />
         </div>
+       
     </div>
-    <TheFooter />
+    <TheFooterBKS />
     </template>
     <script>
+    
     import TheFormBKS from '../components/TheFormBKS.vue';
-    import TheFooterBKS from '../components/TheFooterBKS.vue'
-    import TheHeaderBKS from '../components/TheHeaderBKS.vue'
+    import TheFooterBKS from '../components/TheFooterBKS.vue';
+    import TheHeaderBKS from '../components/TheHeaderBKS.vue';
+    import TheMap from '../components/TheMap.vue';
     export default {
         components: {
             TheFormBKS,
             TheFooterBKS,
-            TheHeaderBKS
+            TheHeaderBKS,
+            TheMap
         }
     }
     </script>
     <style scoped>
-    body {
+    .uberuns {
+        height: 100vh;
         width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    .left-uber{
+        width: 70%;
+        height: 100vh;
+        justify-content: center;
+        align-items: center;
+    }
+    .right-uber{
+        width: 30%;
+        background-color: #ffefe1;
+        display: flex;
+        align-items: center;
         height: 100%;
     }
- .uberuns {
-    height: 120vh;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-
-}
-
-.left-uber {
-    width: 70%;
-    height: 100vh;
     
-    box-sizing: border-box; 
-}
-
-.right-uber {
-    width: 30%;
-    background-color: #ffefe1;
-    display: flex;
-    align-items: center;
-}
-
-.right-uber img {
-    margin-top: 75px;
-    margin-left: 50px;
-    width: 300px;
-    height: 300px;
-}
-    @media only screen and (max-width: 600px) {
+    @media only screen and (max-width: 1100px) {
     
     .uberuns {
         flex-direction: column;
@@ -74,11 +66,7 @@
         width: 100%;
         height: 100%;
     }
-    .right-uber img{
-        margin-top: 50px;
-        margin-left: 40px;
-        width: 250px;
-    }
+  
     input, textarea {
         width: 100%;
     }
